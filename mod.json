@@ -1,0 +1,33 @@
+{
+    "geode": "5.11.2",
+    "gd": {
+        "win": "2.2081",
+        "android": "2.2081"
+    },
+    "id": "vlaqi.click-assist",
+    "name": "Click Assist",
+    "version": "v1.0.0",
+    "developer": "vlaqi",
+    "description": "Retrasa clicks y soltares adelantados hasta el momento en que sobrevives.",
+    "settings": {
+        "enabled": {
+            "type": "bool",
+            "name": "Activar asistencia",
+            "default": true
+        },
+        "max-delay": {
+            "type": "int",
+            "name": "Máximo de frames de retraso",
+            "default": 6,
+            "min": 0,
+            "max": 12
+        },
+        "start-attempt": {
+            "type": "int",
+            "name": "Activar desde el intento",
+            "default": 3,
+            "min": 1,
+            "max": 100
+        }
+    }
+}
